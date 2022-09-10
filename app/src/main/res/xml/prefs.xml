@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/prefTempUnitKey"
+        android:title="@string/prefTempUnitTitle"
+        android:summary="%s"
+        android:dialogTitle="@string/prefTempUnitDialog"
+        android:entries="@array/prefTempUnitsEntries"
+        android:entryValues="@array/prefTempUnitsValues"
+        android:defaultValue="@string/prefTempUnitsDefault"/>
+
+    <EditTextPreference
+        android:key="@string/prefLocationKey"
+        android:title="@string/prefLocationTitle"
+        android:defaultValue="Corvallis,US"/>
+
+</PreferenceScreen>

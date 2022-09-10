@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CS 492 Weather Assignment 3</string>
+
+    <string name="forecastFor">Forecast for</string>
+    <string name="loadingErrorMessage">Unable to fetch forecast data.  Please check your internet connection.\n\nError message: %1$s</string>
+    <string name="actionShare">Share forecast</string>
+    <string name="actionLocation">Show forecast location</string>
+    <string name="actionSettings">Settings</string>
+    <string name="shareChooseTitle">Pick an app to share this forecast</string>
+
+    <!--Temp and description of weather-->
+    <string name="forecastItemDetails">%1$d%2$s    %3$s</string>
+    <!--Low and High temp-->
+    <string name="forecastItemLowHighTemp">Low: %1$d%3$s   High: %2$d%3$s</string>
+    <!--Wind speed-->
+    <string name="forecastItemWind">Wind: %1$d MPH %2$s</string>
+    <!--Humidity-->
+    <string name="forecastItemHumidity">Humidity: %1$d%%</string>
+    <!--Share text info-->
+    <string name="forecastItemShareText">Forecast for %1$s || Time is %2$s %5$s || Current Temp of %3$d%4$s || With a high of %6$d%4$s and Low of %7$d%4$s || Humidity is %8$d%4$s</string>
+        <!--Forecast for Corvallis,US || Time is 2/21/21 1:00 PM light rain || Current Temp of48F° || With a high of 48F° and Low of 47F° || Humidity is 45F°.-->
+    <string name="prefTempUnitKey" translatable="false">pref_temp_units</string>
+
+    <!--Units in temp and Types of temp bellow-->
+    <string name="prefTempUnitTitle">Temperature Units</string>
+    <string name="prefTempUnitDialog">Temperature in</string>
+    <string name="prefTempUnitFentry">F&#xb0;</string>
+    <string name="prefTempUnitFvalue" translatable="false">imperial</string>
+    <string name="prefTempUnitCentry">C&#xb0;</string>
+    <string name="prefTempUnitCvalue" translatable="false">metric</string>
+    <string name="prefTempUnitKentry">K&#xb0;</string>
+    <string name="prefTempUnitKvalue" translatable="false">kelvin</string>
+    <string name="prefTempUnitsDefault">@string/prefTempUnitFvalue</string>
+    <string name="prefTempUnitsAbbrDefault">@string/prefTempUnitFentry</string>
+
+    <!--Preset location at first start of app-->
+    <string name="prefLocationKey" translatable="false">pref_location</string>
+    <string name="prefLocationTitle">Location</string>
+    <string name="prefLocationDefault">Corvallis,US</string>
+</resources>

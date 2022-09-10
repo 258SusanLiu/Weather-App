@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefTempUnitsEntries">
+        <item>@string/prefTempUnitFentry</item>
+        <item>@string/prefTempUnitCentry</item>
+        <item>@string/prefTempUnitKentry</item>
+    </string-array>
+
+    <string-array name="prefTempUnitsValues">
+        <item>@string/prefTempUnitFvalue</item>
+        <item>@string/prefTempUnitCvalue</item>
+        <item>@string/prefTempUnitKvalue</item>
+    </string-array>
+</resources>
